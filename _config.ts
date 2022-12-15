@@ -6,14 +6,13 @@ import postcss from "lume/plugins/postcss.ts";
 
 const site = lume({
   src: './src',
-  // TODO Update this with the proper URL
-  location: new URL("https://open-innovations.github.io/oi-lume-template/"),
+  location: new URL("https://open-innovations.github.io/tech-dashboard/"),
 });
 
 site.use(base_path());
 site.use(metas({
   defaultPageData: {
-    title: 'title', // Use the `date` value as fallback.
+    title: 'title',
   },
 }));
 site.use(date());
