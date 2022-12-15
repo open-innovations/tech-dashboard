@@ -25,3 +25,8 @@ title: Tech Dashboard
 
 [![Build site](https://github.com/open-innovations/weeknotes/actions/workflows/build-site.yml/badge.svg)](https://github.com/open-innovations/weeknotes/actions/workflows/build-site.yml)
 [![pages-build-deployment](https://github.com/open-innovations/weeknotes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/open-innovations/weeknotes/actions/workflows/pages/pages-build-deployment)
+
+### Tech Dashboard
+
+[![Build site](https://github.com/open-innovations/tech-dashboard/actions/workflows/build-site.yml/badge.svg)](https://github.com/open-innovations/tech-dashboard/actions/workflows/build-site.yml)
+[![pages-build-deployment](https://github.com/open-innovations/tech-dashboard/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/open-innovations/tech-dashboard/actions/workflows/pages/pages-build-deployment)
