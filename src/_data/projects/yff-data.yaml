@@ -1,0 +1,5 @@
+title: YFF Data Dashboard
+repo: open-innovations/yff-data
+workflows:
+  - update-data
+  - deploy-site

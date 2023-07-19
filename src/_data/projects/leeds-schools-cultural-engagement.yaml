@@ -1,0 +1,4 @@
+title: Leeds Schools Cultural Engagement
+repo: open-innovations/leeds-schools-cultural-engagement
+workflows:
+  - build-site

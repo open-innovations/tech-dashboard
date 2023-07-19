@@ -1,0 +1,4 @@
+title: Weeknotes
+repo: open-innovations/weeknotes
+workflows:
+  - build-site

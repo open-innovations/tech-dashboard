@@ -1,0 +1,15 @@
+---
+title: Tech Dashboard
+---
+
+{{ for id, project of projects }}
+  <h2>{{ project.title }}</h1>
+  <p>
+  {{ for workflow of project.workflows }}
+    {{ set workflow_url -}}
+      https://github.com/{{ project.repo }}/actions/workflows/{{ workflow }}.yml
+    {{- /set }}
+      <a href="{{ workflow_url }}"><img src="{{ workflow_url }}/badge.svg"></a>
+  {{ /for }}
+  </p>
+{{ /for }}

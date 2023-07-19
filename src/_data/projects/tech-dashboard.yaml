@@ -1,0 +1,4 @@
+title: Tech Dashboard
+repo: open-innovations/tech-dashboard
+workflows:
+  - build-site

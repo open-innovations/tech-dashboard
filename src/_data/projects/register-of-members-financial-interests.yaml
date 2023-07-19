@@ -1,0 +1,5 @@
+title: Register of Members Financial Interest prototype
+repo: open-innovations/register-of-members-interests-proto
+workflows:
+  - update-data
+  - deploy-site

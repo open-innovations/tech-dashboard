@@ -1,0 +1,4 @@
+title: JRF Insight Dashboard
+repo: open-innovations/jrf-insight
+workflows:
+  - build-site

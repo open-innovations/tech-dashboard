@@ -1,0 +1,4 @@
+title: Leeds Digital Festival data site
+repo: open-innovations/leeds-digital-festival-data
+workflows: 
+  - deploy-site

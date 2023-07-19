@@ -1,0 +1,3 @@
+img[src*='github.com'] {
+  height: 2em;
+}
