@@ -1,0 +1,5 @@
+title: YFF Data Pipeline
+repo: open-innovations/yff-data-pipelines
+workflows:
+  - pipeline
+

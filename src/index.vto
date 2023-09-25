@@ -2,7 +2,10 @@
 title: Tech Dashboard
 ---
 
-{{ for id, project of projects }}
+{{ for id, project of Object.keys(projects)
+  .sort()
+  .reduce((obj, key) => ({ ...obj, [key]: projects[key] }), {} )
+}}
   <h2>{{ project.title }}</h1>
   <p>
   {{ for workflow of project.workflows }}
