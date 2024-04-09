@@ -1,0 +1,5 @@
+title: Constituencies
+repo: open-innovations/constituencies
+workflows:
+  - build-site
+  - data-pipelines
