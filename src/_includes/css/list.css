@@ -1,0 +1,10 @@
+:is(ul, ol).packed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+  & > * + * {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,7 @@
+a.icon-link {
+  display: flex;
+  align-items: center;
+  svg {
+    height: 2em;
+  }
+}

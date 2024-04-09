@@ -1,0 +1,16 @@
+section {
+  &.card {
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 0 5px 2px #D60303;
+  }
+}
+
+.big-grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat( auto-fit, minmax(min(20rem, 100%), 1fr) );
+  & > * + * {
+    margin-top: 0;
+  }
+}
