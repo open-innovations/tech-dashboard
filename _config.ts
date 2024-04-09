@@ -24,4 +24,6 @@ site.use(vento());
 site.copy('CNAME');
 site.copy('.nojekyll');
 
+site.filter('objectToArray', (o) => Object.entries(o).reduce((a, [key, v]) => [...a, { key, ...v }], []))
+
 export default site;
