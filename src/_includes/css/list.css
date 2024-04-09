@@ -1,7 +1,7 @@
 :is(ul, ol).packed {
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 0.5em;
   list-style: none;
   padding: 0;
   & > * + * {
