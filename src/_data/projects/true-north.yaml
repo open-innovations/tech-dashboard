@@ -1,0 +1,4 @@
+title: True North
+repo: open-innovations/true-north
+workflows:
+  - build-site
